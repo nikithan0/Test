@@ -1,0 +1,158 @@
+ Written test
+ 
+ 
+1.  Java constructor or constructor in java is a terminology used to build something in our programms. A constructor is a special method
+    which is used to initialize object of class. It is called when the obejct is created. And it is a block of code similar to method ,
+	and the object is created using the new keyword. And then for every instance variable the JVM will provide default value . When the 
+	object is created then the constructor will execute to perform initialization of the object. Then the default value	will be assend
+	with new keyword.
+ 
+
+     There are two rules to follow ;
+	 
+    1. The name of the constructor must be same as the name of class.
+    2. There should be no return type. Not even void.
+   
+     Two types of constructor 
+   
+   1. Default constructor: This is internally present. The constructor which do not have any parameters or any arguments is called as 
+       default constructor.
+   2. Parameteresized constructor: The constructor which have one or more parameters is called Parameteresized constructor.
+   
+   The purpose of constructor is :
+   
+   * To intialize or to passing the arguments.
+   * The constructor is automatically called when the object is created.
+   * Every class has a constructor which is internally present and that is default constructor.
+   * It does not have return type.
+   * The new keyword is resoponsible for the object creation.
+   * After the object creation the constructor will be called.
+   
+   
+2.  Java is interpreted and obejct oriented programming language. It follows write once run it everywhere rule. Java it runs under 
+    JVM platform. It is created in 1995, by James Gosling . And it is owned by a company called oracle.
+	
+    
+	The feature of java is :
+	
+	1. Simple: Java is easy to learn and understand compare to other language.
+	
+	2. Object oriented programming: Because the java programms are developed using classes and object.
+	
+	3. Robust: Java is strong compared to other language, because of JRE , it checks the code during run time and compiled .
+	
+	4. Secured: Java is secured , because of JVM , it provides automatic garbage collector. And the hackers cannot hack the operating system easily. 
+	
+	5. Platform independent: Java can run in anywhere or the programs can run in any platform because of byte code. Simply it can say it as the 
+	.Java files compiled into .class file (byte code). The byte code which are platform independent are make the Java platform independent.
+    	So it follows write it once run it everywhere.
+	   
+	6. Multi threading: Java can run many process at a time simultaneously. So it is multi threading.
+	
+	
+3.   The difference between Java and C++ is 
+
+    * They differ in their platforms. Some how the Java is platform independent once it is compiled it can in any platform and C++ is platform dependent it needs to 
+	  compiled every time.
+    * They are differ in their memory manegment 
+	* Java is less complex while C++ is more complex.
+	* Java is easy to learn and C++ is less is to learn
+	
+4.   JDK : Java Development Kit, It contains JRE and some tools like compiler and debugger. It allows JRE and to run programms
+     JRE : Java Runtime Environment, It has JVM and some set of libraries. It only allows to programms
+	 JVM : Java Virtual Machine , It allows to byte code to be executed.
+	 
+	 
+6.  Methods are the block of code. The block of code only runs when it is called . It takse the out put proceeds it and gives out put. One can pass the data known as 
+    parameters into method and it is also called as functoin. And the methods will have two types 1.Predifined & 2.User defined.
+	 
+	The declaration method is :- public static void main(String[] args){       -It is a main method which is fixed and can write only once in a program.
+	 
+	  
+	The main method has components 
+	1)Access modifier: It difines the visibility of class it class and controls the visibility of fields, classes and constructors ,  public is a access modifier.
+	2)Non Access modifier: statis is a non access modifier
+	3)Return type: void is a return type , which does not any value in return
+	4)Method name 
+	5) Parameters: which act as variable inside the method , And allows to declare the method.
+	
+	
+7. Method overloadind : Having same method name but different parameters is known as method overloadind.
+
+   It can write in 3 ways 
+   
+   1) Having numnber of parameters
+   2) Having different datatypes 
+   3) Changing the order of datatype.
+   
+   ex; public class MethodOverloading{
+       public sattic void main (String[] args){
+	   Institute();
+	   Institute("Xworkz");
+	   Institute("Banglore", 11);
+	   }
+	    public static void Institute(){
+	   System.out.println("Calling the method one");
+	   }
+	   public static void Institute(String name){
+	   System.out.println("Calling the method two");
+	   }
+	    public static void Institute(String location, int numberOf Students){
+	   System.out.println("Calling the Method three");
+	   }
+   
+8. Constructor does not allow any return type while as method allows return type.
+   Constructor only 4 tyrpe of access modifiers method allows any modifiers
+   In constructor the main method contians the object and it is used to initialize the object and called after the obejct creation.
+   method caontain the body of the method.
+   
+9. static variables : static is a keyword , and which have only one copy. The variables which having only the static variables.
+   static method : The method which make the variables and methods independent of object, and it does not access object.
+   static block : which intialize only static variables is a static block.
+   
+   
+10. Constructor Overloading : The constructor which call one constructor in another is a constructor overloading. It is created by creating 
+    separate task in one constructor and make their chain which makes the program more readable.
+	It can write in two ways :
+	1)With in the class : It is done by using this(); keyword for constructor in the same class.
+	2)Base class: It is done by using super(); keyword for to call constructor from the base class.
+	
+	public class ConstructorOverloading {
+	
+	public static void main(String[] args{
+	
+	public void ConstructorOverloading (){
+	this("Aleena");
+	System.out.println("Default constructor");
+	}
+	
+	public void ConstructorOverloading(String name){
+	this();
+	Systrm}.out.println("Parameteresized");
+	}
+	public static void main(String[] args{
+	ConstructorOverloading object = new ConstructorOverloading();
+	
+	}
+	}
+	
+	
+	
+	
+	
+   
+   
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
